@@ -18,8 +18,8 @@ The project is developed in React Native and imports our SDK, which is built in 
 1. Clone the repository:
 
     ```sh
-    git clone <REPOSITORY_URL>
-    cd <REPOSITORY_NAME>
+    git clone https://github.com/BrightwellPayments/MultikrdSampleApp.git
+    cd MultikrdSampleApp
     ```
 
 2. Install the dependencies:

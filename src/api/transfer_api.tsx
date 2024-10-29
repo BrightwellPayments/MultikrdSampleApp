@@ -5,7 +5,7 @@ export const submitTransfer = async (
   accessToken: string,
   payload: object
 ): Promise<TransferResponse | ReadyRemitError> => {
-  const url = 'https://seu-backend.com/transfer';
+  const url = 'https://sandbox-api.readyremit.com/v1/transfers';
   const response = await fetch(url, {
     method: 'POST',
     headers: {
